@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Brand</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+   <!-- AOS CSS -->
+   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+</head>
+<body>
+ <!-- Hero Section Start -->
+<section class="hero" id="home">
+  <!-- Overlay for background dimming -->
+  <div class="hero-overlay">
+    
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <div class="logo">☕ CoffeeNest</div>
+        <nav class="nav-links">
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Main Content -->
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">Awaken Your Senses</h1>
+        <p class="hero-subtitle">
+          Sip into something richer. Our coffee is crafted from the finest organic beans for a bold, unforgettable taste.
+        </p>
+        <a href="#products" class="cta-btn">☕ Shop Now</a>
+      </div>
+
+      <!-- Product Image -->
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+          alt="Freshly Brewed Coffee"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Hero Section End -->
+
+<!-- Features Section Start -->
+<section class="features" id="features">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="features-header">
+      <h2 class="section-title">Why CoffeeNest?</h2>
+      <p class="section-subtitle">
+        We're not just brewing coffee — we're brewing experiences ☕✨
+      </p>
+    </div>
+
+    <!-- Features Grid -->
+    <div class="features-grid">
+      
+      <!-- Feature Card 1 -->
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon-box">
+          <img src="coffee-beans.png" alt="Organic Beans">
+        </div>
+        <h3>100% Organic Beans</h3>
+        <p>
+          Handpicked from the world’s richest soil for a flavor that speaks to your soul.
+        </p>
+      </div>
+
+      <!-- Feature Card 2 -->
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon-box">
+          <img src="coffee-cup.png" alt="Fresh Roasted">
+        </div>
+        <h3>Freshly Roasted</h3>
+        <p>
+          Roasted weekly in small batches to ensure the ultimate aroma and freshness.
+        </p>
+      </div>
+
+      <!-- Feature Card 3 -->
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon-box">
+          <img src="verified.png" alt="Sustainable">
+        </div>
+        <h3>Eco-Friendly Packaging</h3>
+        <p>
+          100% biodegradable bags that love the earth as much as you love your brew.
+        </p>
+      </div>
+
+      <!-- Feature Card 4 -->
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon-box">
+          <img src="clock.png" alt="Fast Delivery">
+        </div>
+        <h3>Fast & Reliable Delivery</h3>
+        <p>
+          Shipped within 48 hours so you never miss your daily coffee ritual.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Features Section End -->
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,      // Animation duration
+    once: true,          // Only animate once
+    easing: 'ease-in-out'
+  });
+</script>
+
+<!-- Product Showcase Section Start -->
+<section class="products" id="products">
+  <div class="container">
+    <div class="products-header">
+      <h2 class="section-title">Our Signature Blends</h2>
+      <p class="section-subtitle">Handcrafted flavors for every kind of coffee lover ☕</p>
+    </div>
+
+    <div class="product-grid">
+      <!-- Product Card 1 -->
+      <div class="product-card hidden" data-aos="fade-up" data-aos-delay="100">
+        <h3>Bold Dark Roast</h3>
+        <p>Deep, rich, and smoky – perfect for strong coffee lovers.</p>
+        <span class="price">$14.99</span>
+        <a href="#" class="product-btn">Add to Cart</a>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="product-card hidden" data-aos="fade-up" data-aos-delay="200">
+        <h3>Vanilla Cream</h3>
+        <p>Smooth and sweet with a hint of vanilla – a morning treat.</p>
+        <span class="price">$13.50</span>
+        <a href="#" class="product-btn">Add to Cart</a>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="product-card hidden" data-aos="fade-up" data-aos-delay="300">
+        <h3>Hazelnut Delight</h3>
+        <p>Nutty, warm, and aromatic – a cozy cup of comfort.</p>
+        <span class="price">$15.25</span>
+        <a href="#" class="product-btn">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Product Showcase Section End -->
+
+<!-- Testimonials Section Start -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="testimonials-header">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <p class="section-subtitle">They’ve tasted the magic. Here’s what they’re saying ☕💬</p>
+    </div>
+
+    <div class="testimonial-grid">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card hidden">
+        <div class="testimonial-profile">
+          <img src="user.png" alt="Customer 1">
+          <div>
+            <h3>Sarah Khan</h3>
+            <span>Lahore, PK</span>
+          </div>
+        </div>
+        <p class="testimonial-text">
+          “CoffeeNest is my morning ritual! The hazelnut blend is so warm and comforting. Never switching!”
+        </p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card hidden">
+        <div class="testimonial-profile">
+          <img src="user.png" alt="Customer 2">
+          <div>
+            <h3>Ali Raza</h3>
+            <span>Karachi, PK</span>
+          </div>
+        </div>
+        <p class="testimonial-text">
+          “Amazing service and packaging. My vanilla cream coffee always arrives fresh and aromatic.”
+        </p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card hidden">
+        <div class="testimonial-profile">
+          <img src="user.png" alt="Customer 3">
+          <div>
+            <h3>Zoya Malik</h3>
+            <span>Islamabad, PK</span>
+          </div>
+        </div>
+        <p class="testimonial-text">
+          “Sustainable, rich, and delicious! I love knowing that my coffee is both premium and eco-friendly.”
+        </p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonials Section End -->
+
+<!-- Pricing Section Start -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="pricing-header">
+      <h2 class="section-title">Choose Your Brew Plan</h2>
+      <p class="section-subtitle">Flexible pricing to match your daily caffeine needs ☕</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Basic Plan -->
+      <div class="pricing-card hidden">
+        <h3>Starter</h3>
+        <p class="price">$9.99<span>/month</span></p>
+        <ul class="pricing-features">
+          <li>1 Bag / Month</li>
+          <li>Free Delivery</li>
+          <li>Email Support</li>
+        </ul>
+        <a href="#" class="pricing-btn">Get Started</a>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="pricing-card popular hidden">
+        <h3>Premium</h3>
+        <p class="price">$19.99<span>/month</span></p>
+        <ul class="pricing-features">
+          <li>3 Bags / Month</li>
+          <li>Priority Delivery</li>
+          <li>Free Mug & Tote</li>
+        </ul>
+        <a href="#" class="pricing-btn">Subscribe Now</a>
+        <div class="badge">Most Popular</div>
+      </div>
+
+      <!-- Deluxe Plan -->
+      <div class="pricing-card hidden">
+        <h3>Deluxe</h3>
+        <p class="price">$29.99<span>/month</span></p>
+        <ul class="pricing-features">
+          <li>5 Bags / Month</li>
+          <li>Express Delivery</li>
+          <li>Merch Pack & Samples</li>
+        </ul>
+        <a href="#" class="pricing-btn">Upgrade</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Pricing Section End -->
+
+<!-- FAQ Section Start -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="faq-header">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Need help? We’ve got answers.</p>
+    </div>
+
+    <div class="faq-list">
+      <!-- FAQ Item 1 -->
+      <div class="faq-item">
+        <button class="faq-question">What is CoffeeNest’s delivery time?</button>
+        <div class="faq-answer">
+          <p>We deliver freshly roasted coffee within 2-4 working days. You’ll always get it fresh!</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 2 -->
+      <div class="faq-item">
+        <button class="faq-question">Are your beans organic and ethically sourced?</button>
+        <div class="faq-answer">
+          <p>Yes! All our beans are 100% organic and sourced from fair-trade certified farms.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 3 -->
+      <div class="faq-item">
+        <button class="faq-question">Do you offer sample packs?</button>
+        <div class="faq-answer">
+          <p>Absolutely. You can order a trial pack with 3 mini blends to find your favorite flavor.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 4 -->
+      <div class="faq-item">
+        <button class="faq-question">Can I change or cancel my subscription?</button>
+        <div class="faq-answer">
+          <p>Yes, you can manage your subscription anytime through your account dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FAQ Section End -->
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="container about-container">
+    <!-- Image Column -->
+    <div class="about-img hidden">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Our Story">
+    </div>
+
+    <!-- Text Column -->
+    <div class="about-text hidden">
+      <h2 class="section-title">Our Story</h2>
+      <h4 class="section-subtitle">From farm to cup — crafted with care, love, and legacy ☕</h4>
+      <p>
+        At <strong>CoffeeNest</strong>, we do more than just roast beans. We craft experiences. Born from the love of warm mornings and honest flavors, our journey began in a tiny roastery — now shared with coffee lovers around the world.
+      </p>
+      <p>
+        Every bean we select tells a story — of sun-kissed farms, ethical sourcing, and passion in every grind. We work directly with small-batch farmers to deliver bold, clean, unforgettable blends — while caring for the earth and its people.
+      </p>
+      <p>
+        Join us on a mission to brew better mornings and meaningful moments, one cup at a time.
+      </p>
+      <a href="#" class="about-btn">Learn More</a>
+    </div>
+  </div>
+</section>
+<!-- About Section End -->
+
+<!-- Final CTA Section Start -->
+<section class="cta" id="cta">
+  <div class="container cta-container">
+    <div class="cta-content hidden">
+      <h2 class="cta-title">Join the Coffee Revolution</h2>
+      <p class="cta-subtitle">Get early access to offers, fresh brews, and bonus beans!</p>
+
+      <!-- Email Sign-Up Form -->
+      <form class="cta-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <!-- OR Purchase Button -->
+      <!-- <a href="#" class="cta-btn">Shop Now</a> -->
+    </div>
+  </div>
+</section>
+<!-- Final CTA Section End -->
+
+<!-- Footer Start -->
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-brand">
+      <h3>CoffeeNest ☕</h3>
+      <p>Brewed with purpose. Served with love.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#cta">Subscribe</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 CoffeeNest. All rights reserved.</p>
+  </div>
+</footer>
+<!-- Footer End -->
+
+
+</body>
+</html>
